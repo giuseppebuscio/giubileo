@@ -234,7 +234,7 @@ function TourVirtuali() {
                 Situato sul Monte Bonifato, domina il paesaggio con la sua posizione panoramica. Unisce spiritualità e natura in un luogo suggestivo e ricco di leggende.
               </p>
               <button className="bg-white text-gray-900 px-4 py-2 md:px-6 md:py-3 rounded-lg md:rounded-xl font-semibold hover:bg-gray-100 transition-colors duration-300 text-sm md:text-base">
-                Non disponibile
+                Esplora
               </button>
             </div>
           </div>
