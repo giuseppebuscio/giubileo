@@ -240,6 +240,17 @@ function TourVirtuali() {
           </div>
         </div>
       </div>
+
+      {/* Logos Section */}
+      <div className="mt-16 md:mt-24">
+        <div className="flex justify-center items-center">
+          <img 
+            src="/loghi.png" 
+            alt="Loghi dei partner" 
+            className="max-w-full h-auto max-h-32 md:max-h-48 object-contain"
+          />
+        </div>
+      </div>
     </div>
   );
 }
