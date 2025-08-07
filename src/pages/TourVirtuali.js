@@ -9,7 +9,7 @@ function TourVirtuali() {
     'beata-pina-suriano': 'https://tour.ceformedsrl.it/pinasuriano/',
     'romitello': 'https://tour.ceformedsrl.it/romitello/',
     'maria-ss-miracoli': 'https://tour.ceformedsrl.it/madonnadeimiracoli/',
-    'maria-ss-alto': '#'
+    'maria-ss-alto': 'https://tour.ceformedsrl.it/mariassdellalto/'
   };
 
   const handleTourClick = (tourId) => {
