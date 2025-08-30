@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { FaVrCardboard, FaVideo, FaGlobe, FaBars, FaXmark } from "react-icons/fa6";
 import TourVirtuali from './pages/TourVirtuali';
 import VideoPromozionali from './pages/VideoPromozionali';
+import Video360 from './pages/Video360';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('tour-virtuali');
@@ -10,6 +11,7 @@ function App() {
   const menuItems = [
     { id: 'tour-virtuali', name: 'Tour Virtuali', icon: <FaVrCardboard className="w-5 h-5" /> },
     { id: 'video-promozionali', name: 'Video Promozionali', icon: <FaVideo className="w-5 h-5" /> },
+    { id: 'video-360', name: 'Video 360', icon: <FaVideo className="w-5 h-5" /> },
     { id: 'sito-web', name: 'Sito Web', icon: <FaGlobe className="w-5 h-5" />, external: true, url: 'https://giubileo.ceformedsrl.it/' }
   ];
 
@@ -19,6 +21,8 @@ function App() {
         return <TourVirtuali />;
       case 'video-promozionali':
         return <VideoPromozionali />;
+      case 'video-360':
+        return <Video360 />;
       default:
         return <TourVirtuali />;
     }
